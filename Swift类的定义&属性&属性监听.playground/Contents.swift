@@ -172,7 +172,6 @@ print(ChineseStudent.corseCount)
  */
 class Model :NSObject {
     var name : String? {
-        
 //        willSet {
 //            print(name ?? "lwy")
 //            print(newValue ?? "lwy")

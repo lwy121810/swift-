@@ -12,6 +12,7 @@ import UIKit
  String 支持直接遍历
  Swift 提供了 String 和 NSString 之间的无缝转换
  */
+
 //定义不可变字符
 let str = "hello world"
 // 遍历字符串
