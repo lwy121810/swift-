@@ -111,6 +111,12 @@ let location1 = Location(xyString: "100,100")
 struct LLocation {
     var x : Double
     var y : Double
+    
+    
+    // 给结构体扩充构造函数
+    // 1> 默认情况下, 系统会为每一个结构体提供一个默认的构造函数, 并且该构造函数, 要求给每一个成员属性进行赋值
+    // 2> 构造函数都是以init开头, 并且构造函数不需要返回值
+    // 3> 在构造函数结束时, 必须保证所有的成员属性有被初始化
     init(x : Double, y : Double) {
         self.x = x
         self.y = y
@@ -119,7 +125,34 @@ struct LLocation {
         let strs = xyString.components(separatedBy: ",")
         x = Double(strs.first!)!
         y = Double(strs.last!)!
+        
+        
+        
+        let array = xyString.components(separatedBy: ",")
+        let item1 = array[0]
+        let item2 = array[1]
+        
+        /*
+         if let x = Double(item1) {
+         self.x = x
+         } else {
+         self.x = 0
+         }
+         
+         if let y = Double(item2) {
+         self.y = y
+         } else {
+         self.y = 0
+         }
+         */
+        
+        // ?? 判断前面的可选类型是否有值
+        // 有值, 则解包, 没有值,则使用后面的值
+        self.x = Double(item1) ?? 0
+        self.y = Double(item2) ?? 0
     }
+    
+    // 改变成员属性 : 如果在函数中修改了成员属性, 那么该函数前必须加上mutating
     mutating func moveH(x : Double) {
         self.x += x
     }

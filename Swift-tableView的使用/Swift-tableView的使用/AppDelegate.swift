@@ -23,9 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 /**
  自定义log的目的是在debug模式下打印信息 在release环境下不打印 swift没有宏定义
- 
  */
-
 // MARK:- 自定义log
 // 这是一个全局函数 在任何文件都能够直接使用
 func WYLog<T>(message:T, fileName:String = #file, funcName : String = #function, lineNum : Int = #line)  {
@@ -37,8 +35,6 @@ func WYLog<T>(message:T, fileName:String = #file, funcName : String = #function,
      
      获取所在行
      let lineNum = #line
-     
-     WYLog(message: 123)
      
      */
     #if WYDEBUG

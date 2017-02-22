@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E4341A741E5C084900AEA80C"
-               BuildableName = "Swift-tableView&#x7684;&#x4f7f;&#x7528;.app"
-               BlueprintName = "Swift-tableView&#x7684;&#x4f7f;&#x7528;"
-               ReferencedContainer = "container:Swift-tableView&#x7684;&#x4f7f;&#x7528;.xcodeproj">
+               BlueprintIdentifier = "E41E812F1E5D654D007DD364"
+               BuildableName = "Swift-&#x8bbf;&#x95ee;&#x6743;&#x9650;.app"
+               BlueprintName = "Swift-&#x8bbf;&#x95ee;&#x6743;&#x9650;"
+               ReferencedContainer = "container:Swift-&#x8bbf;&#x95ee;&#x6743;&#x9650;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,37 +32,37 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E4341A881E5C084900AEA80C"
-               BuildableName = "Swift-tableView&#x7684;&#x4f7f;&#x7528;Tests.xctest"
-               BlueprintName = "Swift-tableView&#x7684;&#x4f7f;&#x7528;Tests"
-               ReferencedContainer = "container:Swift-tableView&#x7684;&#x4f7f;&#x7528;.xcodeproj">
+               BlueprintIdentifier = "E41E81431E5D654D007DD364"
+               BuildableName = "Swift-&#x8bbf;&#x95ee;&#x6743;&#x9650;Tests.xctest"
+               BlueprintName = "Swift-&#x8bbf;&#x95ee;&#x6743;&#x9650;Tests"
+               ReferencedContainer = "container:Swift-&#x8bbf;&#x95ee;&#x6743;&#x9650;.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E4341A931E5C084900AEA80C"
-               BuildableName = "Swift-tableView&#x7684;&#x4f7f;&#x7528;UITests.xctest"
-               BlueprintName = "Swift-tableView&#x7684;&#x4f7f;&#x7528;UITests"
-               ReferencedContainer = "container:Swift-tableView&#x7684;&#x4f7f;&#x7528;.xcodeproj">
+               BlueprintIdentifier = "E41E814E1E5D654D007DD364"
+               BuildableName = "Swift-&#x8bbf;&#x95ee;&#x6743;&#x9650;UITests.xctest"
+               BlueprintName = "Swift-&#x8bbf;&#x95ee;&#x6743;&#x9650;UITests"
+               ReferencedContainer = "container:Swift-&#x8bbf;&#x95ee;&#x6743;&#x9650;.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E4341A741E5C084900AEA80C"
-            BuildableName = "Swift-tableView&#x7684;&#x4f7f;&#x7528;.app"
-            BlueprintName = "Swift-tableView&#x7684;&#x4f7f;&#x7528;"
-            ReferencedContainer = "container:Swift-tableView&#x7684;&#x4f7f;&#x7528;.xcodeproj">
+            BlueprintIdentifier = "E41E812F1E5D654D007DD364"
+            BuildableName = "Swift-&#x8bbf;&#x95ee;&#x6743;&#x9650;.app"
+            BlueprintName = "Swift-&#x8bbf;&#x95ee;&#x6743;&#x9650;"
+            ReferencedContainer = "container:Swift-&#x8bbf;&#x95ee;&#x6743;&#x9650;.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E4341A741E5C084900AEA80C"
-            BuildableName = "Swift-tableView&#x7684;&#x4f7f;&#x7528;.app"
-            BlueprintName = "Swift-tableView&#x7684;&#x4f7f;&#x7528;"
-            ReferencedContainer = "container:Swift-tableView&#x7684;&#x4f7f;&#x7528;.xcodeproj">
+            BlueprintIdentifier = "E41E812F1E5D654D007DD364"
+            BuildableName = "Swift-&#x8bbf;&#x95ee;&#x6743;&#x9650;.app"
+            BlueprintName = "Swift-&#x8bbf;&#x95ee;&#x6743;&#x9650;"
+            ReferencedContainer = "container:Swift-&#x8bbf;&#x95ee;&#x6743;&#x9650;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E4341A741E5C084900AEA80C"
-            BuildableName = "Swift-tableView&#x7684;&#x4f7f;&#x7528;.app"
-            BlueprintName = "Swift-tableView&#x7684;&#x4f7f;&#x7528;"
-            ReferencedContainer = "container:Swift-tableView&#x7684;&#x4f7f;&#x7528;.xcodeproj">
+            BlueprintIdentifier = "E41E812F1E5D654D007DD364"
+            BuildableName = "Swift-&#x8bbf;&#x95ee;&#x6743;&#x9650;.app"
+            BlueprintName = "Swift-&#x8bbf;&#x95ee;&#x6743;&#x9650;"
+            ReferencedContainer = "container:Swift-&#x8bbf;&#x95ee;&#x6743;&#x9650;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
