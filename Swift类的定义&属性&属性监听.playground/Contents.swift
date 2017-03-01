@@ -133,6 +133,7 @@ stu1.mathScore = 60.0
 //let average = stu1.average()
 //average
 
+//stu1.averageScore = 50 这是错误的 因为averageScore只提供了getter方法 是只读的
 //因为average属性是读写类型的， 可以直接赋值
 
 

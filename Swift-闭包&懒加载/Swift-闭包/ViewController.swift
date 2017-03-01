@@ -44,7 +44,6 @@ class ViewController: UIViewController {
         return ["lwy","zhangsan"]
     }()
     
-    
     // 使用类时不需要倒入类， 默认自己创建的类在同一命名空间中
     var tool : HttpTool = HttpTool()
     
@@ -52,9 +51,32 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
 
+//    func requestData (callBack : (_ json : String) -> (Int)) {
+//        
+//        callBack("23")
+//    }
+    
+    func requestData(callBack : (_ json : String) -> ()) {
+        
+        callBack("12")
+    }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
         print(names)
+        tool.loadData { (callBack) in
+            
+        }
+        
+        requestData { (json) in
+            weak var weakSelf = self
+            tool.requestData(callBack: { (json) in
+                weakSelf?.view.backgroundColor = UIColor.red
+            })
+        }
+        
+        requestData { [weak self](json) in
+            
+        }
         
 //        tool.loadData { (callBack) in
 //            self.view.backgroundColor = UIColor.red//这里使用self并没有造成循环引用 因为这里控制器对tool有强引用， 闭包对self有强引用，但是tool对闭包没有强引用 所以可以用self 在deinit方法中可以看到有打印
@@ -82,13 +104,13 @@ class ViewController: UIViewController {
         
         
         //解决循环引用的方法二 ：推荐使用
-        /*
+        
         //跟方法一的含义是一样的，这只是一个更简便的写法,只是上一种方法的简化
         //在闭包的第一个大括号后面写一个[],这是一种固定格式，这种格式是对上面方法的一种简化，直接在[]里写weak  self
         tool.loadData {[weak self] (jsonData) in
-            self?.view.backgroundColor = UIColor.red//这里的self其实是使用的[weak self]中的临时变量self
+            self?.view.backgroundColor = UIColor.red//这里的self其实是使用的[weak self]中的临时变量self 是一个可选类型
         }
-        */
+ 
         //方法三
         /*
         unowned相当于OC中的 __unsafe_unretained
