@@ -74,9 +74,9 @@ class ViewController: UIViewController {
             })
         }
         
-        requestData { [weak self](json) in
-            
-        }
+//        requestData { [weak self](json) in
+//            
+//        }
         
 //        tool.loadData { (callBack) in
 //            self.view.backgroundColor = UIColor.red//这里使用self并没有造成循环引用 因为这里控制器对tool有强引用， 闭包对self有强引用，但是tool对闭包没有强引用 所以可以用self 在deinit方法中可以看到有打印
